@@ -2,25 +2,58 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>GUIBERT Adrien : Webmarketing</title>
+    <title> GUIBERT Adrien : Webmarketing </title>
     <style type="text/css">
       h1 {
         color:white;
       }
+#navigation {
+  margin: 0 ;
+  padding: 0 ;
+  list-style: none ;
+  text-align: center ;
+  }
+#navigation li {
+  display: inline ;
+  margin-right: 1px ;
+  color: #fff ;
+  background: #091246 ;
+}
+#navigation li a {
+  padding: 4px 20px ;
+  background: #091246 ;
+  color: #fff ;
+  border: 1px solid #fff ;
+  font: 1em "Trebuchet MS",Arial,sans-serif ;
+  line-height: 1em ;
+  text-align: center ;
+  text-decoration: none ;
+}
+#navigation li a:hover, #navigation li a:focus, #navigation li a:active {
+  background: #696969 ;
+  text-decoration: underline ;
+}
+h1 {
+  font-size: 4em ;
+  font-family : Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
+  text-align: center ;
+}
+h2 {
+  font-size: 2em ;
+  font-family : Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
+}
+.txt {
+  font-size: 1.5em ;
+  font-family : Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
+}
     </style>
   </head>
     <body style="background-color:rgb(4,139,144);">
   	<header>
       <nav>
-  		<h1><img src="photo.jpg" width="200p" alt="Photo de moi"> Bienvenue sur le Portfolio d'Adrien GUIBERT</h1>
+  		<h1> Bienvenue sur le Portfolio d'Adrien GUIBERT</h1><img src="photo.jpg" width="200p" alt="Photo de moi">
   	     <ul id="navigation">
-          <navigation {
-  margin: 0 ;
-  padding: 0 ;
-  list-style: none ;
-  text-align: center ;
-} >
-  <li><a href="#" title="voir l'expérience d'Adrien">Mon expérience</a></li>
+  <li><a href="josé.html" title="voir l'expérience d'Adrien">Mon expérience</a></li>
   <li><a href="#" title="voir le cursus d'Adrien">Mes formations</a></li>
   <li><a href="#" title="Voir les compétences d'Adrien">Mes compétences</a></li>
   <li><a href="#" title="Voir les hobbies d'Adrien">Mes hobbies</a></li>
@@ -32,25 +65,20 @@
 <main>
   <section>
   <!---Les titres --->
-  <h2>Mon expérience</h2>
+  <h2>Mon profil</h2>
       <!---Mes Stages--->
-      <h3><a href= "https://partenaire.bmw.fr/charrier?ORIGINE=seabr__ggle_conq_consid__&mkwid=sjlKhb1te_354965185430_bmw%20charrier%20cholet_e_c&mtid=uixtfazh00&product_id=&slid=&syn=BMW-VN-Search-Google-Concessions-Consideration&tl=sea_ao__bmw_range_nc_dmsite_oth__paid_sea_seabr__ggle_conq_consid__"> Stagiaire chez BMW Charrier Cholet (Novembre 2019-Décembre 2019) </a></h3>
+      <h3><a href= "https://www.linkedin.com/in/adrien-guibert-b1051b174/"> Cliquez-ici pour voir mon LinkedIn </a></h3>
         <!--- Mes missions --->
-          <ul>
-            <li>- Assistance aux vendeurs dans leurs missions quotidiennes </li>
-            <li>- Accompagnement pendant les entretiens de vente / rédaction d'annonces et de photos </li>
-            <li>- Accueil des clients</li>
-            <li>- Remplissage de fiches découvertes clients </li>
-            <li>- Rédaction d'e-mailings</li>
-            <li>- Participation aux portes-ouvertes et à la foire de Cholet</li>
-            <li>- Veille concurrentielle</li>
-          </ul>
+          <div class="txt">
+            Amoureux de l'automobile et des mobilités depuis mon enfance, j'aime la création digitale, aider, tester, et le contact humain. 
+            <br> Créatif, curieux et ayant le sens de l'écoute, je souhaite étendre mon savoir-faire et mes compétences au sein de votre entreprise.
+          </div>
 	</section>
 </main>
 		<footer>
 			<h2>En savoir plus...</h2>
-			<p>Copyright</p>
-			<p>Source</p>
+			<p class="txt">Copyright</p>
+			<p class="txt">Source</p>
 		</footer>
   </body>
 </html>
