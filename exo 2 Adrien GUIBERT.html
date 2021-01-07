@@ -1,0 +1,94 @@
+<meta charset="UTF-8">
+    <title>title</title>
+    <style>
+	    body {
+		  margin: 0;
+		  padding: 0;
+		  font-size: 100%;
+		}
+	.wrapper {
+  		display: grid;
+      	grid-template-columns: repeat(5, 1fr);
+      	grid-template-rows: repeat(5, 20vh);
+      	grid-gap: 5px;
+      	background-color: #fff;
+      	color: black;
+		}
+	.Un {
+  		grid-column-start: 1;
+  		grid-column-end: 4;
+  		grid-row-start: 1; 
+  		grid-row-end: 4;
+  		background-color: #A96900;
+  		border: white 0.5px solid;
+      	color: black;
+      	border-radius: 0px;
+      	padding: 10px;
+      	font-size: 150%;
+		}
+	.Deux { 
+  		grid-column-start: 4;
+  		grid-column-end: 5;
+  		grid-row-start: 1; 
+  		grid-row-end: 3;
+  		background-color: #FF6251;
+  		border: white 0.5px solid;
+     	color: black;
+      	border-radius: 5px;
+      	padding: 10px;
+      	font-size: 150%;
+   
+		}
+	.Trois {
+  		grid-column-start: 5;
+  		grid-column-end: -1;
+  		grid-row-start: 1; 
+  		grid-row-end: 3;
+  		background-color: #B18CFE;
+  		border: white 0.5px solid;
+     	color: black;
+      	border-radius: 5px;
+      	padding: 10px;
+      	font-size: 150%;
+    }
+    .Quatre { 
+      grid-column-start: 4;
+      grid-column-end: -1;
+      grid-row-start: 3; 
+      grid-row-end: 4;
+      background-color: #77bb41;
+      border: white 0.5px solid;
+      color: black;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 150%;
+   
+    }.Cinq { 
+      grid-column-start: 1;
+      grid-column-end: -1;
+      grid-row-start: 4; 
+      grid-row-end: 5;
+      background-color: #919191;
+      border: white 0.5px solid;
+      color: black;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 150%;
+   
+    }
+    </style>
+  </head>
+  <body>
+  
+
+	<div class="wrapper">
+	  <div class="Un"></div>
+	  <div class="Deux"></div>
+	  <div class="Trois"></div>
+    <div class="Quatre"></div>
+    <div class="Cinq"></div>
+	</div>
+
+
+  </body>
+</html>
