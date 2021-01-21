@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title> Mon Expérience </title>
 
-  <style type="text/css">
+  <style>
     body {
       color: #E1C7AE;
       margin: 0;
@@ -23,10 +23,7 @@
       width: 100%;
       text-align: center;
     }
-    .Maphoto {
-      text-align: center ;
-      
-       }
+    
       .experience {
         font-size: 4em ;
         font-family : Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
@@ -64,17 +61,6 @@
       background: #696969 ;
       text-decoration: underline ;
     }
-
-    .contenu {
-      display: grid;
-      grid-template-columns: 1fr 200px;
-      grid-template-rows: 200px 435px 400px;
-      grid-gap: 10px;
-      background-color: #2C3544;
-      color: #111;
-      max-width: 100%;
-      padding: 0 auto;
-    }
     .projet__img {
       width: 100%;
       height: auto;
@@ -94,9 +80,13 @@
     @media only screen and (min-width: 100px)   {
       .contenu {
 
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
-        grid-template-rows: repeat(1,20vh);
+       display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(9, 10vh);
+        grid-gap: 6px;
+        background-color: #fff;
+        color: white;
+    }
         
       }
 
@@ -165,6 +155,7 @@
   }
 </style>
 </head>
+<body style="background-color:#E1C7AE;">
 <header>
  <h1 class="experience"> Mon expérience </h1>
  <div class="photo">  <img src="photo.jpg" width="200px" alt="Photo de moi">
@@ -179,8 +170,6 @@
 </ul>
 </header>
 
-<body>
-  <body style="background-color:#E1C7AE;">
     <a href="index.html">Retour vers l'accueil</a>
     <a href="CV Adrien GUIBERT - Assistant Marketing (2).pdf">Téléchargez mon CV ICI</a>
 
@@ -233,16 +222,16 @@
           
           <div class="Descript__Bénévole"> En cours, chez @theautomobilist.fr </div>    
           
-          <div class="Corps__Bénévole">
+          <ul class="Corps__Bénévole">
             
             <li>- Création de publications, stories sur Instagram</li>
             <li>- Community Management</li>
             <li>- Relations presse avec des constructeurs automobiles</li> 
             
-            <a href="https://theautomobilist.fr">Pour en savoir plus sur l'entreprise</a>
+          </ul> 
 
-          </div> 
-          
+          <a href="https://theautomobilist.fr">Pour en savoir plus sur l'entreprise</a>
+
         </div>
       </div>
 
@@ -261,7 +250,7 @@
           
           <div class="Descript__Bénévole"> BMW/MINI Charrier Cholet du 4/11 au 20/12/2019 </div>
           
-          <div class="Corps__Bénévole">
+          <ul class="Corps__Bénévole">
            
            <li> - Gestion du parc occasion </li>
           <li> - Rédaction d'annonces / prise de photos avec des  standards BMW </li>
@@ -271,9 +260,10 @@
           <li>- Prospection et participation pour une soirée lancement de nouveaux modèles</li>
           <li>- Veille concurrentielle</li>
             
-            <a href="https://theautomobilist.fr">Pour en savoir plus sur l'entreprise</a> 
-          </div> 
-          
+          </ul> 
+
+          <a href="https://theautomobilist.fr">Pour en savoir plus sur l'entreprise</a> 
+
         </div>
       </div>
       
