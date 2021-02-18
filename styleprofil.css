@@ -1,0 +1,142 @@
+html, body
+{
+ margin: 0;
+ padding: 0;
+}
+
+h1 {
+        color:white;
+      }
+      img.Maphoto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+
+
+    ul {
+  display: flex;
+  height: auto;
+  background-color: lightgrey;
+  flex-direction: row; /*row, row-reverse, column, column-reverse*/
+  flex-wrap: wrap; /*nowrap (effacer margin et padding avec) | wrap | wrap-reverse*/
+  justify-content: space-around; /*center, flex-start, flex-end, space-around, space-between*/ /*ça justifie en fonction des paramètres, c'est l'axe principal cad horizontal avec flex-direction : row et vertical avec flex-direction : column; */
+
+  align-items: center; /*center, flex-start, flex-end, stretch, baseline, space-around, space-between*/ /*align-items est l'axe secondaire*/
+  align-content: space-between; /*center, flex-start, flex-end, stretch, baseline space-around, space-between*/ /*On multiple lines only*/
+  background-color: lightgrey;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 75px;
+    font-family : Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
+
+}
+
+      .wrapper {
+      display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(9, 10vh);
+        grid-gap: 6px;
+        color: black;
+    }
+  .Haut {
+      grid-column-start: 1;
+      grid-column-end: 4;
+      grid-row-start: 1; 
+      grid-row-end: 3;
+      background-color: white;
+      border: black 0.5px solid;
+        color: black;
+        border-radius: 9px;
+        padding: 13px;
+        font-size: 150%;
+    }
+  .Un { 
+      grid-column-start: 4;
+      grid-column-end: -1;
+      grid-row-start: 1; 
+      grid-row-end: 5;
+      background-color: #222222;
+      border: black 0.5px solid;
+      color: white;
+        border-radius: 7px;
+        padding: 20px;
+        font-size: 150%;
+   
+    }
+    
+#navigation {
+  margin: 0 ;
+  padding: 0 ;
+  list-style: none ;
+  text-align: center ;
+  }
+#navigation li {
+  display: inline ;
+  margin-right: 1px ;
+  color: #fff ;
+  background: #091246 ;
+}
+#navigation li a {
+  padding: 4px 20px ;
+  background: #091246 ;
+  color: #fff ;
+  border: 1px solid #fff ;
+  font: 1em "Trebuchet MS",Arial,sans-serif ;
+  line-height: 1em ;
+  text-align: center ;
+  text-decoration: none ;
+}
+#navigation li a:hover, #navigation li a:focus, #navigation li a:active {
+  background: #696969 ;
+  text-decoration: underline ;
+}
+h1 {
+  font-size: 4em ;
+  font-family : Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
+  text-align: center ;
+}
+.work {
+  color: #091246 ;
+  font-size: 3em ;
+}
+
+h2 {
+  font-size: 2em ;
+  font-family : Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
+  text-align: center ;
+  background-color: #091246 ;
+  color: white ;
+}
+.txt {
+  font-size: 1.5em ;
+  font-family : Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
+}
+
+.infoperso {
+  color: black ;
+  font-family : Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
+  font-size : 20px;
+}
+
+.footer {
+display: flex;
+  height: auto;
+  background-color: #091246;
+  flex-direction: row; /*row, row-reverse, column, column-reverse*/
+  flex-wrap: wrap; /*nowrap (effacer margin et padding avec) | wrap | wrap-reverse*/
+  justify-content: space-around; /*center, flex-start, flex-end, space-around, space-between*/ /*ça justifie en fonction des paramètres, c'est l'axe principal cad horizontal avec flex-direction : row et vertical avec flex-direction : column; */
+
+  align-items: center; /*center, flex-start, flex-end, stretch, baseline, space-around, space-between*/ /*align-items est l'axe secondaire*/
+  align-content: space-between; /*center, flex-start, flex-end, stretch, baseline space-around, space-between*/ /*On multiple lines only*/
+  background-color: #091246;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 75px;
+    font-family : Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
+
+}
