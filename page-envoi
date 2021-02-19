@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title> Merci pour votre message </title>
+  <link rel="stylesheet" type="text/css" href="stylecontact.css" media="all">
+
+  
+</head>
+
+<body style="background-color:#E1C7AE;">
+<header>
+ <h1 class="experience"> Merci pour votre message, j'y répondrais prochainement :) </h1>
+ <!-- <div class="photo">  <img src="photo.jpg" width="200px" alt="Photo de moi"> -->
+ </header>
+
+</body>
+
+</html>
