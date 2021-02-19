@@ -3,151 +3,158 @@
 <head>
   <meta charset="UTF-8">
   <title> Me contacter </title>
+  <link rel="stylesheet" type="text/css" href="stylecontact.css" media="all">
 
   
 </head>
 <body style="background-color:#E1C7AE;">
 <header>
- <h1 class="experience"> Me contacter </h1>
- <div class="photo">  <img src="photo.jpg" width="200px" alt="Photo de moi">
+ <h1 class="experience"> Pour me contacter... </h1>
+ <!-- <div class="photo">  <img src="photo.jpg" width="200px" alt="Photo de moi"> -->
  </div>
 
  <ul id="navigation">
   <li><a href="Accueil - PORTFOLIO.html" title="voir le profil d'Adrien">Mon profil</a></li>
   <li><a href="Mon expérience - PORTFOLIO.html" title="Mon expérience">Mon expérience</a></li> 
-  <li><a href="" title="voir le cursus d'Adrien">Mes formations</a></li>
-  <li><a href="#" title="Voir les compétences d'Adrien">Mes compétences</a></li>
-  <li><a href="#" title="Voir les hobbies d'Adrien">Mes hobbies</a></li>
+  <li><a href="Mes formations - PORTFOLIO.html" title="voir le cursus d'Adrien">Mes formations</a></li>
+  <li><a href="Mes Compétences - PORTFOLIO.html" title="Voir les compétences d'Adrien">Mes compétences</a></li>
+  <li><a href="Mes hobbies - PORTFOLIO.html" title="Voir les hobbies d'Adrien">Mes hobbies</a></li>
 </ul>
 </header>
 
-    <a href="index.html">Retour vers l'accueil</a>
-    <a href="CV Adrien GUIBERT - Assistant Marketing (2).pdf">Téléchargez mon CV ICI</a>
+    <a href="Accueil - PORTFOLIO.html" class="button">Retour vers l'accueil</a>
+    <a href="CV Adrien GUIBERT - Assistant Marketing (2).pdf" class="button">Téléchargez mon CV ICI</a>
 
+<h2> <div class="h2"> Soit avec ce formulaire :</h2>
+<div class="formulaire">
+    <form name="mon-formulaire1" action="page-envoi.html" method="get">
+<p>
+   <input type="radio" name="civi" value="Mme" /> Madame
+   <input type="radio" name="civi" value="Mlle" /> Mademoiselle
+   <input type="radio" name="civi" value="Mr" /> Monsieur
+</p>
+<p>
+   Votre prénom :<br />
+   <input type="text" name="prenom" value="" />
+</p>
+<p>
+   Votre nom :<br />
+   <input type="text" name="nom" value="" />
+</p>
 
-    
+<p>
+   Vous êtes<br />
+   <select name="profil">
+      <option value="parti">Un particulier</option>
+      <option value="profe" selected="selected">Un professionnel</option>
+      <option value="insti">Un institutionnel</option>
+   </select>
+</p>
+
+<p>
+   Votre message :<br />
+   <textarea name="le-message" rows="6" cols="40">Vous pouvez saisir ici un message.</textarea>
+</p>
+<p>
+   <input type="submit" value="Envoyer" />
+   <input type="reset" value="Annuler" />
+</p>
+</form>
+</div>
+
+<!-- GRID -------------------------------------------------------------------------------------- -->
+    <h2><div class="h2"> Soit avec mon téléphone, mails ou réseaux :</h2>
     <div class="contenu">
 
       <div class="contenu1">
+
+        <!-- Téléphone -->
         
-        <!-- <div class="stagesemplois"> -->
-          <!-- <div class="projet"> -->
-            <img src="https://lh3.googleusercontent.com/AJQGi4IV3b7E5kcEdj4x_wTEO5oMb9qkBd8i_Uw0dv40pypQWLh2szlH3f-ZfnxtsPxLJhkO=w1080-h608-p-no-v0" alt="" class="projet__img">
-          <!-- </div> -->
+            <img src="https://i.guim.co.uk/img/media/c10008e4d2b4428bb5b2cbe0beadaaa89fa605ed/433_283_4000_2400/master/4000.jpg?width=445&quality=45&auto=format&fit=max&dpr=2&s=bfa15064b81a58a7fbab88bd7e952ec1" alt="une image de portable" class="projet__img">
           
-          <h2 class="bénévole"> Alternant WebMarketing et Logistique / Communication Digitale / E-business </h2>
+          <h2 class="bénévole"> Mon portable </h2>
           
-          <div class="Descript__Bénévole"> En cours, chez Gus Astuces </div>
-          
-          <!-- <div class="Corps__Bénévole"> -->
-           
-           <ul>
+          <div class="Descript__Bénévole"> 07.83.47.82.49 </div>
 
-            <li>- Création de publications, stories sur Instagram, Facebook, Twitter, Google My Business</li>
-            <li>- Rôle polyvalent</li>
-            <li>- Community Management</li>
-            <li>- Relations avec les fournisseurs</li>
-            <li>- Réalisation d'envois</li>
-            <li>- Assistance au service client via tchat en ligne</li>
-            <li>- Gestion et mise en ligne de produits sur PrestaShop</li>
-            <li>- Rédaction d'articles et de descriptions de produits</li>
-            <li>- Et bien d'autres missions...</li>
-          </ul>
-
-
-            <a href="https://theautomobilist.fr">Pour en savoir plus sur l'entreprise</a>
-            <!-- </div> -->
-          
-        <!-- </div> -->
+            <a href="https://theautomobilist.fr" class="button2" >Pour en savoir plus sur l'entreprise</a>
+            
       </div>
 
+<!-- Mon MAIL -->
 
       <div class="contenu2">
 
         <div class="stagesemplois">
           <div class="projet">
-            <img src="https://theautomobilist.fr/wp-content/uploads/2019/04/LogoTA.png" alt="" class="projet__img">
+            <img src="https://www.madmoizelle.com/wp-content/uploads/2017/10/annuler-mail-gmail.jpg" alt="mon mail" class="projet__img">
           </div>
           
-          <h2 class="bénévole"> Content Manager Instagram et Twitter </h2>
+          <h2 class="bénévole"> Mon adresse e-mail </h2>
           
-          <div class="Descript__Bénévole"> En cours, chez @theautomobilist.fr </div>    
-          
-          <ul class="Corps__Bénévole">
-            
-            <li>- Création de publications, stories sur Instagram</li>
-            <li>- Community Management</li>
-            <li>- Relations presse avec des constructeurs automobiles</li> 
-            
-          </ul> 
+          <div class="Descript__Bénévole"> adrien.guibert49@gmail.com ou adrien.guibert@my-digital-school-org </div>    
+        
 
-          <a href="https://theautomobilist.fr">Pour en savoir plus sur l'entreprise</a>
+          <a href="https://theautomobilist.fr" class="button2" >Pour en savoir plus sur l'entreprise</a>
 
         </div>
       </div>
 
 
-
+<!-- Mes adresses -->
 
       
       <div class="contenu3">
 
         <div class="stagesemplois">
           <div class="projet">
-            <img src="https://www.forumbmw.net/img/members/3/Liste-des-concessionnaires-BMW-en-France-6.jpeg" alt="" class="projet__img">
+            <img src="http://politify.us/wp-content/uploads/2018/11/comment-dessiner-une-maison-en-3d-homewreckr-co-sa-l-impression.jpg" alt="mon adresse postale" class="projet__img">
           </div>
           
-          <h2 class="bénévole"> Assistant commercial BMW/MINI </h2>
+          <h2 class="bénévole"> Mes adresses </h2>
           
-          <div class="Descript__Bénévole"> BMW/MINI Charrier Cholet du 4/11 au 20/12/2019 </div>
-          
-          <ul class="Corps__Bénévole">
-           
-           <li> - Gestion du parc occasion </li>
-          <li> - Rédaction d'annonces / prise de photos avec des  standards BMW </li>
-            <li>- Accueil des clients, conseils</li>
-          <li>- Découverte des clients et accompagnement aux essais</li>
-          <li>- Rédaction d'e-mailings</li>
-          <li>- Prospection et participation pour une soirée lancement de nouveaux modèles</li>
-          <li>- Veille concurrentielle</li>
-            
-          </ul> 
+          <div class="Descript__Bénévole"> 17 Allée de la Bigearderie 49110 Montrevault-Sur-Evre (stable)
+          ou 5 Rue Sainte Catherine 44160 Pontchateau (adresse étudiante) </div>
+        
 
-          <a href="https://theautomobilist.fr">Pour en savoir plus sur l'entreprise</a> 
+          <a href="https://theautomobilist.fr" class="button2">Pour en savoir plus sur l'entreprise</a> 
 
         </div>
       </div>
       
       
 
-
+<!-- Mes réseaux de contact -->
 
       
       <div class="contenu4">
 
         <div class="stagesemplois">
           <div class="projet">
-            <img src="https://www.groupe-dmd.fr/media/cache/full/media/upload/ec8a2ad5cbb439c9694deb71bd026665/1/1920x/puub5r/90.jpeg" alt="" class="projet__img">
+            <img src="https://www.zinfos974.com/photo/art/grande/52988587-40233557.jpg?v=1610448254" alt="Mon LinkedIn et mon Instagram" class="projet__img">
           </div>
           
-          <h2 class="bénévole"> Assistant commercial Ford </h2>
+          <h2 class="bénévole"> Via mes réseaux</h2>
           
-          <div class="Descript__Bénévole"> Ford Clénet Cholet du 29/04 au 29/06/19 </div>
-          
-          <div class="Corps__Bénévole">
-           <ul>
-            <li>- Missions similaires à chez BMW</li>
-            <li>- Animation du stand Ford à la Foire de Cholet</li>
-            <li>- Animation de portes-ouvertes</li>
-            </ul> 
+          <div class="Descript__Bénévole"> Mes préférés : LinkedIn ou Instagram </div>
                 
-            <a href="https://theautomobilist.fr">Pour en savoir plus sur l'entreprise</a>
+            <a href="https://theautomobilist.fr" class="button2" >LinkedIn</a>
+            <a href="https://theautomobilist.fr" class="button2" >Instagram</a>
           </div> 
         </div>
         
       </div>
-
-      
+     
     </div>
+
+    <!-- Le footer avec des liens (si possible enlever les li si ça ne bug pas) -->
+
+    <footer>
+      <h3>En savoir plus...</h3>
+      <ul class="footer">
+        <li><a href="txt" class="button2">Le suivi de mon alternance</a></li>
+        <li><a href="txt" class="button2">Sources</a></li>
+      </ul>
+      
+    </footer>
   </body>
   </html>
