@@ -8,10 +8,7 @@ body {
       list-style: none;
     }
 
-    /*li::before {​​
-    content: '- ';
-    }​​
-*/
+  
     .photo {
       width: 100%;
       text-align: center;
@@ -66,8 +63,8 @@ body {
       padding: 0 auto;
     }
     .projet__img {
-      width: 100%;
-      height: auto;
+      width: auto;
+      height: 300px;
     }
     @media only screen and (min-width: 100px)  {
       .contenu {
@@ -85,46 +82,50 @@ body {
       .contenu {
 
         display: grid;
-        grid-template-columns: repeat(4,1fr);
-        grid-template-rows: repeat(1,20vh);
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,90vh);
         
       }
 
       .contenu1 {
-        grid-column: 1/2;
-        grid-row: 1/2;
+        grid-column: 1;
+        grid-row: 1;
         background-color: #2C3544;
-        color: #171717;
+        color: #E1C7AE;
         border-radius: 5px;
+        border: #E1C7AE 2px solid;
         padding: 20px;
         font-size: 150%;
       }
       .contenu2 { 
-        grid-column: 2/3;
-        grid-row: 1/2;
+        grid-column: 2;
+        grid-row: 1;
         background-color: #2C3544;
-        color: #171717;
+        color: #E1C7AE;
         border-radius: 5px;
+        border: #E1C7AE 2px solid;
         padding: 20px;
         font-size: 150%;
         
       }
       .contenu3 {
-        grid-column: 3/4;
-        grid-row: 1/2;
+        grid-column: 1;
+        grid-row: 2;
         background-color: #2C3544;
-        color: #171717;
+        color: #E1C7AE;
         border-radius: 5px;
+        border: #E1C7AE 2px solid;
         padding: 20px;
         font-size: 150%;
         
       }
       .contenu4 {
-        grid-column: 4/5;
-        grid-row: 1;
+        grid-column: 2;
+        grid-row: 2;
         background-color: #2C3544;
-        color: #171717;
+        color: #E1C7AE;
         border-radius: 5px;
+        border: #E1C7AE 2px solid;
         padding: 20px;
         font-size: 150%;
       }
@@ -138,7 +139,46 @@ body {
         font-weight: bold;
         font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
       }
-        
+      .button {
+  background-color: #2C3544; /* Gris */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button2 {
+  background-color: #E1C7AE; /* Gris */
+  border: none;
+  color: #2C3544;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+}
+.footer {
+display: flex;
+  height: auto;
+  background-color: #2C3544;
+  flex-direction: row; /*row, row-reverse, column, column-reverse*/
+  flex-wrap: wrap; /*nowrap (effacer margin et padding avec) | wrap | wrap-reverse*/
+  justify-content: space-around; /*center, flex-start, flex-end, space-around, space-between*/ /*ça justifie en fonction des paramètres, c'est l'axe principal cad horizontal avec flex-direction : row et vertical avec flex-direction : column; */
+
+  align-items: center; /*center, flex-start, flex-end, stretch, baseline, space-around, space-between*/ /*align-items est l'axe secondaire*/
+  align-content: space-between; /*center, flex-start, flex-end, stretch, baseline space-around, space-between*/ /*On multiple lines only*/
+  background-color: #2C3544;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 75px;
+    font-family : Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
+
+}
         
       
   /*.Cinq {
